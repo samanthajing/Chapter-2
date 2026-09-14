@@ -6,8 +6,8 @@ public class Date {
 			int date = 14;
 			String month = "September";
 			int year = 2026;
-			System.out.print("American format" + ": " + day + ", " + month + date + "," + year);
-			
+			System.out.println("American format" + ": " + day + ", " + month + date + ", " + year);
+			System.out.print("European format" + ": " + day + " " + date + " " + month + " " + year);
 	}
 
 }
