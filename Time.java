@@ -23,9 +23,9 @@ public class Time {
 	minute = 10;
 	second = 20;
 	
-	int TimeElapsedSinceBeginning = hour*60*60 + minue*60 + second
+	int TimeElapsedSinceBeginning = hour*60*60 + minute*60 + second;
 	
-	System.out.println("elapsed time since I started working on this excercise: ")
+	System.out.println("elapsed time since I started working on this excercise: " + TimeElapsedSinceBeginning);
 	
 	}
 
